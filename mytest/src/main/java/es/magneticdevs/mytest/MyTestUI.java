@@ -8,6 +8,8 @@ import com.vaadin.ui.TextField;
 import com.vaadin.ui.UI;
 import com.vaadin.ui.VerticalLayout;
 
+import es.magneticdevs.mytestdependency.Test;
+
 /**
  * This UI is the application entry point. A UI may either represent a browser window 
  * (or tab) or some part of a html page where a Vaadin application is embedded.
@@ -23,7 +25,7 @@ public class MyTestUI extends UI {
         final VerticalLayout layout = new VerticalLayout();
         
         final TextField name = new TextField();
-        name.setCaption("Type your name here:");
+        name.setCaption("Type your name here:  "+Test.studipTest(2, 3));
 
         Button button = new Button("Click Me");
         button.addClickListener( e -> {
