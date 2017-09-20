@@ -13,8 +13,8 @@
 	</prerequisites>
 
 	<modules>
-		<module>sidemenu-addon</module>
-		<module>sidemenu-demo</module>
+		<module>mytest</module>
+		<module>mytestdependency</module>
 	</modules>
 
 
