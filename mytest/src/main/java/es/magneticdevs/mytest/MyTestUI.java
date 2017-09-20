@@ -25,7 +25,7 @@ public class MyTestUI extends UI {
         final VerticalLayout layout = new VerticalLayout();
         
         final TextField name = new TextField();
-        name.setCaption("Type your name here:  "+Test.studipTest(2, 3));
+        name.setCaption("Type your name here:  "+Test.studipTest(7, 3));
 
         Button button = new Button("Click Me");
         button.addClickListener( e -> {
