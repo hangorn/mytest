@@ -1,11 +1,7 @@
 package es.magneticdevs.mytest;
 
-import javax.servlet.annotation.WebServlet;
-
 import com.vaadin.annotations.Theme;
-import com.vaadin.annotations.VaadinServletConfiguration;
 import com.vaadin.server.VaadinRequest;
-import com.vaadin.server.VaadinServlet;
 import com.vaadin.ui.Button;
 import com.vaadin.ui.Label;
 import com.vaadin.ui.TextField;
@@ -40,10 +36,5 @@ public class MyTestUI extends UI {
         layout.setSpacing(true);
         
         setContent(layout);
-    }
-
-    @WebServlet(urlPatterns = "/*", name = "MyTestUIServlet", asyncSupported = true)
-    @VaadinServletConfiguration(ui = MyTestUI.class, productionMode = false)
-    public static class MyTestUIServlet extends VaadinServlet {
     }
 }

@@ -8,7 +8,7 @@
 
   <servlet>
     <servlet-name>myservlet</servlet-name>
-    <servlet-class>es.magneticdevs.mytest.MyTestUI.MyTestUIServlet</servlet-class>
+    <servlet-class>es.magneticdevs.mytest.MyTestUIServlet</servlet-class>
 
     <init-param>
       <param-name>UI</param-name>
